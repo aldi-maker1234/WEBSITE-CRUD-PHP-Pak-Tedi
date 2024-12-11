@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            h6{
+                letter-spacing: 5px;
+            }
+            .intiform{
+                display: flex;
+                justify-content: center;
+            }
+            .logo2{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="biodata.html">Aldi ajah</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="biodata.html">Biodata</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Audio/Video</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Tabel.html">Tabel</a></li>
+                            <li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
+                            <li class="nav-item"><a class="nav-link" href="menampilkan_data.php">Database</a></li>
+                            <li class="nav-item dropdown">
+                            </li>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <section class="py-5">
+                <h1 class="text-center">Formulir Pembayaran Top Up Diamond MLBB</h1>
+                <form class="m-5 row">
+                    <div class="intiform">
+                        <div class="isi">
+                            <label for="username">Username:</label>
+                            <br><input type="text" name="username" id="username" size="50">
+                            <br><br><label for="ID">ID:</label>
+                            <br><input type="text" name="ID" id="ID" size="50">
+                            <br><br><label for="email">Akun Email:</label>
+                            <br><input type="text" name="email" id="email" size="50">
+                            <br><br><label for="password">Password:</label>
+                            <br><input type="password" name="password" id="password" size="50">
+                            <br><br><label for="fname">No.Whatsapp:</label>
+                            <br><input type="text" name="no.whatsapp" id="no.whatsapp" size="50">
+                            <br><br><input type="checkbox"> Ingatkan Saya!!
+                            <br><br>
+                            <h4>Pembayaran Via:</h4>
+                            <input type="radio" id="Dana" name="pembayaran" value="Dana">
+                            <label for="Dana">Dana</label><br>
+                            <input type="radio" id="OVO" name="pembayaran" value="OVO">
+                            <label for="OVO">OVO</label><br>
+                            <input type="radio" id="GoPay" name="pembayaran" value="GoPay">
+                            <label for="GoPay">GoPay</label><br>
+                            <input type="radio" id="Indomaret" name="pembayaran" value="Indomaret">
+                            <label for="Indomaret">Indomaret</label><br>
+                            <input type="radio" id="Qris Code" name="pembayaran" value="Qris Code">
+                            <label for="Qris Code">Qris Code</label><br>
+                            <input type="radio" id="Bank" name="pembayaran" value="Bank">
+                            <label for="Bank">Bank</label><br>
+                            <br><br><label for="Nominal">Harga Nominal:</label>
+                            <br><select name="Nominal" id="Nominal">
+                                <option value="1x WDP = 25K">1x WDP = 25K</option>
+                                <option value="2x WDP = 38K">2x WDP = 38K</option>
+                                <option value="3x WDP = 50K">3x WDP = 50K</option>
+                                <option value="4x WDP = 60K">4x WDP = 60K</option>
+                                <option value="5x WDP = 70K">5x WDP = 70K</option>
+                            </select>
+                            <br><br><input type="checkbox" name="Accept" id="Accept">
+                            <label for="keterangan">Saya telah menyetujui Kebijakan <span>Pembayaran</span> dan
+                                <span>Persyaratan</span> yang telah diberikan.</label>
+                            <br><br><input class="btn btn-primary text-white" type="submit" value="submit">
+                            <input class="btn btn-warning text-white" type="reset" value="reset">
+                        </div>
+                    </div>
+                </form>            
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="bg-dark">
+            <div class="container-fluid text-white bg-dark mb-2">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <h6>Categories</h6>
+                        <ul class="footer-links ">
+                            <li><a class="text-white text-decoration-none" href="#">Website Design</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">UI Design</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Web Development</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Video Editor</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Theme Creator</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Templates</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a class="text-white text-decoration-none" href="#">About Us</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Contact Us</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Contribute</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+                            <li><a class="text-white text-decoration-none" href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="small">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-12">
+                        <p class="copyright-text text-white">Copyright © 2020 All Rights Reserved by
+                            <a href="#"><span class="logo2">ALDI UCUP.</span></a>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <ul class="social-icons text-white">
+                                <li><a class="facebook text-white text-decoration-none" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="twitter text-white text-decoration-none" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="dribbble text-white text-decoration-none" href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a class="linkedin text-white text-decoration-none" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </footer>    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
